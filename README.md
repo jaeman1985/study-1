@@ -43,10 +43,10 @@ btnCloses.forEach(btn => {
 함수에 인수를 전달해야 하는 경우는 익명 함수를 사용하여 이벤트 발생 시점에 함수를 호출하도록 한다.
 즉, 익명 함수를 이벤트 리스너로 등록하여 클릭 이벤트가 발생할 때 마다 익명 함수가 실행되고, 그 내부에서 titleCose 함수가 btn 인수와 함께 호출된다.
 
-🔶 CSS flex
-Flexbox 는 기본적으로 flex-direction 속성이 row 로 설정되어 있다.
-즉, 요소들이 가로 방향으로 정렬된다.
-그래서 세로 방향으로 정렬하고 싶다면 fiex-direction: column 해주면된다.
+### 🔶 CSS flex
+### Flexbox 는 기본적으로 flex-direction 속성이 row 로 설정되어 있다.
+### 즉, 요소들이 가로 방향으로 정렬된다.
+### 그래서 세로 방향으로 정렬하고 싶다면 fiex-direction: column 해주면된다.
 ---
 ```
 .container {
